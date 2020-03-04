@@ -1,0 +1,9 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "Success",
+  "data": {
+    "version": "1.0",
+    "description": "SNiT ERP Android Version"
+  }
+}
