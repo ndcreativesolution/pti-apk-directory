@@ -1,0 +1,47 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "SELECT 1 records",
+  "data": [
+    {
+      "id": 1,
+      "code": "ADMIN",
+      "description": "ADMIN"
+    }
+  ],
+  "modulgroup": [
+    {
+      "modulgroup": "ACC",
+      "modul": {
+        "id": 47,
+        "code": "glperiod",
+        "description": "Period"
+      }
+    },
+    {
+      "modulgroup": "ACC",
+      "modul": {
+        "id": 48,
+        "code": "glaccountstructure",
+        "description": "Account Structure"
+      }
+    },
+    {
+      "modulgroup": "ADM",
+      "modul": {
+        "id": 1,
+        "code": "modulgroup",
+        "description": "Modul Group"
+      }
+    },
+    {
+      "modulgroup": "ABG_MANAGEMENTDM",
+      "modul": {
+        "id": 72,
+        "code": "bgpayable",
+        "description": "BG Payable"
+      }
+    }
+  ],
+  "version": "1.0"
+}
