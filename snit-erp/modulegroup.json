@@ -12,35 +12,38 @@
   "modulgroup": [
     {
       "modulgroup": "ACC",
-      "modul": {
-        "id": 47,
-        "code": "glperiod",
-        "description": "Period"
-      }
-    },
-    {
-      "modulgroup": "ACC",
-      "modul": {
-        "id": 48,
-        "code": "glaccountstructure",
-        "description": "Account Structure"
-      }
+      "modul": [
+        {
+          "id": 47,
+          "code": "glperiod",
+          "description": "Period"
+        },
+        {
+          "id": 48,
+          "code": "glaccountstructure",
+          "description": "Account Structure"
+        }
+      ]
     },
     {
       "modulgroup": "ADM",
-      "modul": {
+      "modul": [
+        {
         "id": 1,
         "code": "modulgroup",
         "description": "Modul Group"
-      }
+        }
+      ]
     },
     {
-      "modulgroup": "ABG_MANAGEMENTDM",
-      "modul": {
-        "id": 72,
-        "code": "bgpayable",
-        "description": "BG Payable"
-      }
+      "modulgroup": "AABG_MANAGEMENTDMDM",
+      "modul": [
+        {
+          "id": 72,
+          "code": "bgpayable",
+          "description": "BG Payable"
+        }
+      ]
     }
   ],
   "version": "1.0"
