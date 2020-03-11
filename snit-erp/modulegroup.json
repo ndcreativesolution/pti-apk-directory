@@ -11,7 +11,8 @@
   ],
   "modulgroup": [
     {
-      "modulgroup": "ACC",
+      "modulgroupCode": "ACC",
+      "modulgroupDescription": "Accounting",
       "modul": [
         {
           "id": 47,
@@ -27,6 +28,7 @@
     },
     {
       "modulgroup": "ADM",
+      "modulgroupDescription": "Admin",
       "modul": [
         {
         "id": 1,
@@ -37,6 +39,7 @@
     },
     {
       "modulgroup": "BG_MANAGEMENT",
+      "modulgroupDescription": "BG",
       "modul": [
         {
           "id": 72,
