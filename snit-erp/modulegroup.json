@@ -27,7 +27,7 @@
       ]
     },
     {
-      "modulgroup": "ADM",
+      "modulgroupCode": "ADM",
       "modulgroupDescription": "Admin",
       "modul": [
         {
@@ -38,7 +38,7 @@
       ]
     },
     {
-      "modulgroup": "BG_MANAGEMENT",
+      "modulgroupCode": "BG_MANAGEMENT",
       "modulgroupDescription": "BG",
       "modul": [
         {
