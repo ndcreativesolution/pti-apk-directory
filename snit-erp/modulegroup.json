@@ -23,6 +23,21 @@
           "id": 48,
           "code": "glaccountstructure",
           "description": "Account Structure"
+        },
+        {
+          "id": 49,
+          "code": "glaccount",
+          "description": "Account"
+        },
+        {
+          "id": 50,
+          "code": "gljournal",
+          "description": "Journal"
+        },
+        {
+          "id": 71,
+          "code": "glledger",
+          "description": "Ledger"
         }
       ]
     },
@@ -31,9 +46,24 @@
       "modulgroupDescription": "Admin",
       "modul": [
         {
-        "id": 1,
-        "code": "modulgroup",
-        "description": "Modul Group"
+          "id": 1,
+          "code": "modulgroup",
+          "description": "Modul Group"
+        },
+        {
+          "id": 3,
+          "code": "credential",
+          "description": "Credential"
+        },
+        {
+          "id": 2,
+          "code": "modul",
+          "description": "Modul"
+        },
+        {
+          "id": 4,
+          "code": "snituser",
+          "description": "User"
         }
       ]
     },
@@ -45,6 +75,632 @@
           "id": 72,
           "code": "bgpayable",
           "description": "BG Payable"
+        },
+        {
+          "id": 73,
+          "code": "bgreceivable",
+          "description": "BG Recievable"
+        },
+        {
+          "id": 74,
+          "code": "bgclearing",
+          "description": "BG Clearing"
+        },
+        {
+          "id": 75,
+          "code": "bgbank",
+          "description": "BG Bank"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "CM",
+      "modulgroupDescription": "Cash Management",
+      "modul": [
+        {
+          "id": 76,
+          "code": "biayagroup",
+          "description": "Biaya Group"
+        },
+        {
+          "id": 77,
+          "code": "biaya",
+          "description": "Biaya"
+        },
+        {
+          "id": 57,
+          "code": "cmreceipt",
+          "description": "CM Receipt"
+        },
+        {
+          "id": 80,
+          "code": "cmdeposit",
+          "description": "CM Deposit"
+        },
+        {
+          "id": 81,
+          "code": "cmexpense",
+          "description": "CM Expense"
+        },
+        {
+          "id": 82,
+          "code": "cmtransfer",
+          "description": "CM Transfer"
+        },
+        {
+          "id": 83,
+          "code": "cmadjustment",
+          "description": "CM Adjust"
+        },
+        {
+          "id": 84,
+          "code": "cmtransaction",
+          "description": "CM Transaction"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "FIN",
+      "modulgroupDescription": "Finance",
+      "modul": [
+        {
+          "id": 33,
+          "code": "bank",
+          "description": "Bank"
+        },
+        {
+          "id": 34,
+          "code": "checkbook",
+          "description": "Checkbook"
+        },
+        {
+          "id": 41,
+          "code": "matauang",
+          "description": "Currency"
+        },
+        {
+          "id": 42,
+          "code": "kurs",
+          "description": "Kurs"
+        },
+        {
+          "id": 51,
+          "code": "ap",
+          "description": "Account Payable (AP)"
+        },
+        {
+          "id": 52,
+          "code": "apopenapply",
+          "description": "AP Apply"
+        },
+        {
+          "id": 53,
+          "code": "apopen",
+          "description": "AP Open"
+        },
+        {
+          "id": 54,
+          "code": "ar",
+          "description": "Account Receivable (AR)"
+        },
+        {
+          "id": 55,
+          "code": "aropenapply",
+          "description": "AR Apply"
+        },
+        {
+          "id": 56,
+          "code": "aropen",
+          "description": "AR Open"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "HR",
+      "modulgroupDescription": "Human Resource",
+      "modul": [
+        {
+          "id": 85,
+          "code": "personal",
+          "description": "Personal"
+        },
+        {
+          "id": 86,
+          "code": "formpersonal",
+          "description": "Form Personal"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "INV",
+      "modulgroupDescription": "Inventory",
+      "modul": [
+        {
+          "id": 17,
+          "code": "itemcategory",
+          "description": "Item Category"
+        },
+        {
+          "id": 18,
+          "code": "itemtype",
+          "description": "Item Type"
+        },
+        {
+          "id": 19,
+          "code": "itemclass",
+          "description": "Item Class"
+        },
+        {
+          "id": 21,
+          "code": "site",
+          "description": "Site"
+        },
+        {
+          "id": 20,
+          "code": "item",
+          "description": "Item"
+        },
+        {
+          "id": 22,
+          "code": "itemtrans",
+          "description": "Item Transaction"
+        },
+        {
+          "id": 23,
+          "code": "bom",
+          "description": "Bill Of Material"
+        },
+        {
+          "id": 44,
+          "code": "itemadjust",
+          "description": "Item Adjustment"
+        },
+        {
+          "id": 46,
+          "code": "fifoin",
+          "description": "Stock"
+        },
+        {
+          "id": 69,
+          "code": "itemsiteaudit",
+          "description": "Audit Stock"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "NOTES",
+      "modulgroupDescription": "Notes",
+      "modul": [
+        {
+          "id": 63,
+          "code": "notesmeeting",
+          "description": "Note Meeting"
+        },
+        {
+          "id": 64,
+          "code": "notesqc",
+          "description": "Note Qc"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "POP",
+      "modulgroupDescription": "Purchasing",
+      "modul": [
+        {
+          "id": 24,
+          "code": "popsetup",
+          "description": "POP Setup"
+        },
+        {
+          "id": 26,
+          "code": "vendorclass",
+          "description": "Vendor Class"
+        },
+        {
+          "id": 27,
+          "code": "vendor",
+          "description": "Vendor"
+        },
+        {
+          "id": 35,
+          "code": "vendoraddress",
+          "description": "Vendor Address"
+        },
+        {
+          "id": 32,
+          "code": "itempricepurchase",
+          "description": "Item Price Purchase"
+        },
+        {
+          "id": 39,
+          "code": "poprequest",
+          "description": "Purchase Request"
+        },
+        {
+          "id": 40,
+          "code": "poporder",
+          "description": "Purchase Order"
+        },
+        {
+          "id": 43,
+          "code": "popreceipt",
+          "description": "Receipt"
+        },
+        {
+          "id": 45,
+          "code": "popinvoice",
+          "description": "Invoice"
+        },
+        {
+          "id": 87,
+          "code": "poprequestapproved",
+          "description": "PR Approve"
+        },
+        {
+          "id": 88,
+          "code": "popdraft",
+          "description": "PO Draft"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "PRO",
+      "modulgroupDescription": "Production",
+      "modul": [
+        {
+          "id": 68,
+          "code": "itemassembly",
+          "description": "Item Assembly"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "REP",
+      "modulgroupDescription": "Report",
+      "modul": [
+        {
+          "id": 62,
+          "code": "itemstockcard",
+          "description": "Stock Card"
+        },
+        {
+          "id": 65,
+          "code": "itemstock",
+          "description": "Daily Stock"
+        },
+        {
+          "id": 66,
+          "code": "poreceiptdaily",
+          "description": "Daily PO Receipt"
+        },
+        {
+          "id": 102,
+          "code": "deliverydaily",
+          "description": "Daily Delivery"
+        },
+        {
+          "id": 103,
+          "code": "soporderdaily",
+          "description": "Daily Sales Order"
+        },
+        {
+          "id": 104,
+          "code": "customercard",
+          "description": "Customer Cards"
+        },
+        {
+          "id": 105,
+          "code": "salescard",
+          "description": "Sales Card"
+        },
+        {
+          "id": 106,
+          "code": "reportomset",
+          "description": "Net Sales Summary"
+        },
+        {
+          "id": 107,
+          "code": "checkbookcard",
+          "description": "Checkbook Card"
+        },
+        {
+          "id": 108,
+          "code": "vendorcard",
+          "description": "Vendor Card"
+        },
+        {
+          "id": 109,
+          "code": "reportsummary",
+          "description": "Report Summary"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "REPO",
+      "modulgroupDescription": "Repository",
+      "modul": [
+        {
+          "id": 94,
+          "code": "poprequesthist",
+          "description": "Purchase Request"
+        },
+        {
+          "id": 95,
+          "code": "poporderhist",
+          "description": "Purchase Order"
+        },
+        {
+          "id": 96,
+          "code": "popreceipthist",
+          "description": "Purchase Reciept"
+        },
+        {
+          "id": 97,
+          "code": "popinvoicehist",
+          "description": "Invoice (PO)"
+        },
+        {
+          "id": 98,
+          "code": "soporderhist",
+          "description": "Repo Sales Order"
+        },
+        {
+          "id": 99,
+          "code": "sopinvoicehist",
+          "description": "Repo SO Invoice"
+        },
+        {
+          "id": 100,
+          "code": "deliveryhist",
+          "description": "Repo Delivery"
+        },
+        {
+          "id": 101,
+          "code": "suratjalanhist",
+          "description": "Repo Surat Jalan"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "REPO",
+      "modulgroupDescription": "Repository",
+      "modul": [
+        {
+          "id": 25,
+          "code": "sopsetup",
+          "description": "SOP Setup"
+        },
+        {
+          "id": 37,
+          "code": "teritory",
+          "description": "Teritory"
+        },
+        {
+          "id": 38,
+          "code": "sales",
+          "description": "Sales"
+        },
+        {
+          "id": 28,
+          "code": "customerclass",
+          "description": "Customer Class"
+        },
+        {
+          "id": 29,
+          "code": "customer",
+          "description": "Customer"
+        },
+        {
+          "id": 36,
+          "code": "customeraddress",
+          "description": "Customer Address"
+        },
+        {
+          "id": 30,
+          "code": "pricelevel",
+          "description": "Price Level"
+        },
+        {
+          "id": 31,
+          "code": "itemprice",
+          "description": "Item Price"
+        },
+        {
+          "id": 58,
+          "code": "soporder",
+          "description": "Sales Order"
+        },
+        {
+          "id": 59,
+          "code": "soppicking",
+          "description": "Picking"
+        },
+        {
+          "id": 60,
+          "code": "sopinvoice",
+          "description": "Invoice"
+        },
+        {
+          "id": 61,
+          "code": "delivery",
+          "description": "Delivery"
+        },
+        {
+          "id": 67,
+          "code": "pricetype",
+          "description": "Price Type"
+        },
+        {
+          "id": 89,
+          "code": "sopbatch",
+          "description": "SOP Batch"
+        },
+        {
+          "id": 90,
+          "code": "sopscheduler",
+          "description": "SOP Scheduler"
+        },
+        {
+          "id": 91,
+          "code": "suratjalan",
+          "description": "Surat Jalan"
+        },
+        {
+          "id": 92,
+          "code": "soporderview",
+          "description": "SOP Order (View)"
+        },
+        {
+          "id": 93,
+          "code": "marketsegment",
+          "description": "Market Segment"
+        }
+      ]
+    },
+    {
+      "modulgroupCode": "SYS",
+      "modulgroupDescription": "System",
+      "modul": [
+        {
+          "id": 5,
+          "code": "company",
+          "description": "Company"
+        },
+        {
+          "id": 6,
+          "code": "paymentterms",
+          "description": "Payment Terms"
+        },
+        {
+          "id": 7,
+          "code": "notes",
+          "description": "Notes"
+        },
+        {
+          "id": 8,
+          "code": "documentation",
+          "description": "Documentation"
+        },
+        {
+          "id": 9,
+          "code": "systemcode",
+          "description": "System Code"
+        },
+        {
+          "id": 10,
+          "code": "systemlog",
+          "description": "System Log"
+        },
+        {
+          "id": 11,
+          "code": "systemgenerator",
+          "description": "System Generator"
+        },
+        {
+          "id": 12,
+          "code": "setupgenerator",
+          "description": "Setup Generator"
+        },
+        {
+          "id": 14,
+          "code": "hold",
+          "description": "Hold"
+        },
+        {
+          "id": 15,
+          "code": "setuphold",
+          "description": "Setup Hold"
+        },
+        {
+          "id": 16,
+          "code": "notification",
+          "description": "Notification"
+        },
+        {
+          "id": 70,
+          "code": "uom",
+          "description": "Uom"
+        },
+        {
+          "id": 110,
+          "code": "paymentmethod",
+          "description": "Payment Method"
+        },
+        {
+          "id": 111,
+          "code": "supplytype",
+          "description": "Supply Type"
+        },
+        {
+          "id": 112,
+          "code": "educationlevel",
+          "description": "[HR] Education Level"
+        },
+        {
+          "id": 113,
+          "code": "field",
+          "description": "[HR] Dept / Divisi"
+        },
+        {
+          "id": 114,
+          "code": "language",
+          "description": "[HR] Language"
+        },
+        {
+          "id": 115,
+          "code": "level",
+          "description": "[HR] Level"
+        },
+        {
+          "id": 116,
+          "code": "majors",
+          "description": "[HR] Majors"
+        },
+        {
+          "id": 117,
+          "code": "position",
+          "description": "[HR] Position"
+        },
+        {
+          "id": 118,
+          "code": "questionlib",
+          "description": "[HR] Question Lib"
+        },
+        {
+          "id": 119,
+          "code": "sector",
+          "description": "[HR] Sector"
+        },
+        {
+          "id": 120,
+          "code": "setupeducationlevel",
+          "description": "[HR] Setup Education Level"
+        },
+        {
+          "id": 121,
+          "code": "setupfield",
+          "description": "[HR] Setup Dept / Divisi"
+        },
+        {
+          "id": 122,
+          "code": "setupposition",
+          "description": "[HR] Setup Position"
+        },
+        {
+          "id": 123,
+          "code": "setuplevel",
+          "description": "[HR] Setup Level"
+        },
+        {
+          "id": 124,
+          "code": "setupdop",
+          "description": "[HR] Setup DOP"
+        },
+        {
+          "id": 125,
+          "code": "companysetup",
+          "description": "[HR] Setup Company"
         }
       ]
     }
