@@ -1,0 +1,39 @@
+{
+  "code": 200,
+  "success": true,
+  "message": "SELECT 4 records",
+  "data": [
+    {
+      "item_id":1,
+      "item_name":"Nasi Timbel Komplit",
+      "item_price":"45000",
+      "item_category":"Indonesian Food",
+      "item_group":"Food",
+      "item_image":""
+    },
+    {
+      "item_id":2,
+      "item_name":"Nasi Timbel Ayam Komplit",
+      "item_price":"45000",
+      "item_category":"Indonesian Food",
+      "item_group":"Food",
+      "item_image":""
+    },
+    {
+      "item_id":3,
+      "item_name":"Nasi Goreng Komplit",
+      "item_price":"45000",
+      "item_category":"Indonesian Food",
+      "item_group":"Food",
+      "item_image":""
+    },
+    {
+      "item_id":4,
+      "item_name":"Nasi Goreng Ayam Komplit",
+      "item_price":"45000",
+      "item_category":"Indonesian Food",
+      "item_group":"Food",
+      "item_image":""
+    }
+  ]
+}
