@@ -1,0 +1,28 @@
+{
+  "item_category_id": 2,
+  "item_category": "Chinese Food",
+  "item_group": [
+    {
+      "item_group_id":1,
+      "item_group_name": "Capcay",
+      "items": [
+        {
+          "item_id": 1,
+          "item_name": "Capcay",
+          "item_price": "25000",
+          "item_category": "Indonesian Food",
+          "item_group": "Food",
+          "item_image": ""
+        },
+        {
+          "item_id": 2,
+          "item_name": "Fu Yung Hai",
+          "item_price": "25000",
+          "item_category": "Indonesian Food",
+          "item_group": "Food",
+          "item_image": ""
+        }
+      ]
+    }
+  ]
+}
