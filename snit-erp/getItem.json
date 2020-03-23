@@ -44,6 +44,44 @@
               "item_image": ""
             }
           ]
+        },
+        {
+          "item_group_id":1,
+          "item_group_name": "Nasi Goreng",
+          "items": [
+            {
+              "item_id": 1,
+              "item_name": "Nasi Goreng Bakar Isi Sambel Tempe",
+              "item_price": "25000",
+              "item_category": "Indonesian Food",
+              "item_group": "Food",
+              "item_image": ""
+            },
+            {
+              "item_id": 2,
+              "item_name": "Nasi Goreng Bakar Isi Telur Asin",
+              "item_price": "25000",
+              "item_category": "Indonesian Food",
+              "item_group": "Food",
+              "item_image": ""
+            },
+            {
+              "item_id": 3,
+              "item_name": "Nasi Goreng Bakar Isi Tuna",
+              "item_price": "25000",
+              "item_category": "Indonesian Food",
+              "item_group": "Food",
+              "item_image": ""
+            },
+            {
+              "item_id": 4,
+              "item_name": "Nasi Goreng Bakar Isi Ayam Bawang",
+              "item_price": "5000",
+              "item_category": "Indonesian Food",
+              "item_group": "Food",
+              "item_image": ""
+            }
+          ]
         }
       ]
     },
